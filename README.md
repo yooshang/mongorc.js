@@ -1,6 +1,6 @@
 # mongorc.js
 
-删除慢查询
+删除大于1s的慢查询
 ```
-dbaslow('q',20,'opid','kill')
+dbaslow('q',1,'opid','kill')
 ```
